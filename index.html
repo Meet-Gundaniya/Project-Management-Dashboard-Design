@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div id="main-container">
+
+    <!-- Toggle button on header-->
+
+    <a href="#" class="nav-bar__btn">
+      <span class="nav-bar__btn--toggle"></span>
+    </a>
+
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__brand-name text-bolder"><a href="" target="_blank" rel="noopener noreferrer">Portfolio</a>
+      </div>
+      <nav class="header__menu">
+        <form class="search__box" action="/" method="">
+          <button type="submit">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-search-small"></use>
+            </svg>
+          </button>
+          <input type="text" placeholder="Search" class="search__field">
+        </form>
+        <div class="spacer"></div>
+        <div class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-add"></use>
+          </svg>
+        </div>
+        <div class="btn icon active">
+          <div class="icon__active--dot" new="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-notification"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <a href="#" class="header__menu--profile">
+          <img src="img/profile-pic.jpg" alt="avatar">
+          <span class="text-bold">Hira R</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Navigation Bar-->
+
+    <nav class="nav-bar">
+      <ul>
+        <li class="btn active">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-home"></use>
+          </svg>
+        </li>
+        <li class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+        </li>
+        <li class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-message"></use>
+          </svg>
+        </li>
+        <li class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-calendar"></use>
+          </svg>
+        </li>
+        <li class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-clock"></use>
+          </svg>
+        </li>
+        <li class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-settings"></use>
+          </svg>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Project Container -->
+
+    <section class="project__container">
+
+      <div class="flex jc-sb ai-c text-bolder mb-4 mx-1">
+        <span class="project__heading">Projects</span>
+        <span>July, 2020</span>
+      </div>
+
+      <div class="flex jc-sb mb-4 mx-1">
+        <div class="project__status flex">
+          <p><span class="text-bolder">45</span>In Progress</p>
+          <div class="project__status--separator"></div>
+          <p><span class="text-bolder">12</span>In Progress</p>
+          <div class="project__status--separator"></div>
+          <p><span class="text-bolder">10</span>Upcoming</p>
+          <div class="project__status--separator"></div>
+          <p><span class="text-bolder">67</span>Total Project</p>
+        </div>
+        <div class="project__view flex">
+          <div class="btn">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-menu-line"></use>
+            </svg>
+          </div>
+          <div class="btn">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-menu-cards"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Cards -->
+
+      <div class="projects">
+
+        <div class="projects__wrapper">
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 2, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Prototyping</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:90%" ;></div>
+              <span class="d-block text-bolder text-right">90%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">2 Days left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 5, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Mobile App</span>
+                <span class="project__title d-block text-center text-bold">Shopping</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:30%" ;></div>
+              <span class="d-block text-bolder text-right">30%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 10, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Dashboard</span>
+                <span class="project__title d-block text-center text-bold">Medical</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:50%" ;></div>
+              <span class="d-block text-bolder text-right">50%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">2 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 15, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Wireframing</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:20%" ;></div>
+              <span class="d-block text-bolder text-right">20%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 2, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Prototyping</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:90%" ;></div>
+              <span class="d-block text-bolder text-right">90%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">2 Days left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 5, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Mobile App</span>
+                <span class="project__title d-block text-center text-bold">Shopping</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:30%" ;></div>
+              <span class="d-block text-bolder text-right">30%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 10, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Dashboard</span>
+                <span class="project__title d-block text-center text-bold">Medical</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:50%" ;></div>
+              <span class="d-block text-bolder text-right">50%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">2 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 15, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Wireframing</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:20%" ;></div>
+              <span class="d-block text-bolder text-right">20%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 15, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Wireframing</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:20%" ;></div>
+              <span class="d-block text-bolder text-right">20%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card__detail">
+              <div class="flex jc-sb">
+                <span>July 15, 2020</span>
+                <div class="project-card__option btn">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <span class="project__category d-block text-center text-bolder">Web Designing</span>
+                <span class="project__title d-block text-center text-bold">Wireframing</span>
+              </div>
+              <span class="d-block text-bolder">Progress</span>
+              <div class="progress__bar rainbow-color" style="--percentage:20%" ;></div>
+              <span class="d-block text-bolder text-right">20%</span>
+            </div>
+            <div class="divider"></div>
+            <div class="project-card__footer flex jc-sb ai-c">
+              <div class="project__contributor">
+                <img src="img/model-1.jpg" alt="">
+                <img src="img/model-2.jpg" alt="">
+                <div class="btn rainbow-color">
+                  <svg>
+                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                  </svg>
+                </div>
+              </div>
+              <button class="project__deadline btn text-bold rainbow-color">3 week left</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Client's message section -->
+
+    <section class="message__section">
+
+      <div class="message__section--title flex ai-c text-bolder">
+        <span>Client Messages</span>
+        <div class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-search"></use>
+          </svg>
+        </div>
+        <div class="btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-two-dots"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="messages">
+
+        <div class="message__card">
+          <img src="img/model-1.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">David</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">Hey tell me about progress of project? Waiting for your response</p>
+          <span class="message__received">21 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-2.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Stephanie</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I got your first assignment. It was quite good. You can start work on next
+            assignment</p>
+          <span class="message__received">19 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-3.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">William</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I want some changes in previous work you sent me. Waiting for your reply.</p>
+          <span class="message__received">17 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-4.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Alona</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I am really impressed from your work, Keep doing great work</p>
+          <span class="message__received">15 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-5.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Hira</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">When you start redesign of app? previous project was perfect</p>
+          <span class="message__received">21 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-1.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">David</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">Hey tell me about progress of project? Waiting for your response</p>
+          <span class="message__received">21 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-2.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Stephanie</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I got your first assignment. It was quite good. You can start work on next
+            assignment</p>
+          <span class="message__received">19 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-3.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">William</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I want some changes in previous work you sent me. Waiting for your reply.</p>
+          <span class="message__received">17 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-4.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Alona</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">I am really impressed from your work, Keep doing great work</p>
+          <span class="message__received">15 July</span>
+        </div>
+
+        <div class="message__card">
+          <img src="img/model-5.jpg" alt="" class="message__sender--img">
+          <span class="message__sender--name text-bolder">Hira</span>
+          <label class="message__favorite btn">
+            <input type="checkbox" name="">
+            <svg>
+              <use xlink:href="img/sprite.svg#icon-star-o"></use>
+            </svg>
+            <svg class="checked">
+              <use xlink:href="img/sprite.svg#icon-star-f"></use>
+            </svg>
+          </label>
+          <p class="message__content">When you start redesign of app? previous project was perfect</p>
+          <span class="message__received">21 July</span>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</body>
+
+</html>
